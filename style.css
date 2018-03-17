@@ -1,0 +1,117 @@
+h1{
+  text-align: center;
+}
+#logo{
+
+    height: 100px;
+    width: 25%;
+  }
+
+/*body
+{
+  background-image: url("images/kotitori1.jpg");
+}*/
+.register {
+   position: relative;;
+   text-align: center;
+}
+/*.reg_form{background-color: blue;*/
+
+.register form{
+  padding: 20px 0 0 0;
+}
+.register a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.topbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #789;
+}
+
+.topbar li{
+  float: left;
+}
+
+
+.topbar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topbar li a:hover{
+  background-color: #111;
+}
+
+/*** middlebar **/
+
+.middlebar {
+  min-height: 360px;
+     height: 80%;
+     width: 100%;
+     background-color: rgb(106, 176, 67);
+     text-align: center;
+     padding-top: 30px;
+  }
+
+.middlebar ul{
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.middlebar li{
+  float: center;
+}
+.middlebar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 28px 50px;
+  text-decoration: none;
+}
+.middlebar li a:hover{
+  background-color: #111;
+}
+
+/** Remainder form **/
+
+.middlebar form{
+
+}
+
+/***register form */
+.reg_form{
+  background-color: powderblue;
+  padding: 30px;
+}
+/***footer*/
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #789;
+   text-align: center;
+}
+.footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer li a{
+  display: block;
+  color: white;
+  padding: 28px 50px;
+  text-decoration: none;
+}
+.footer li a:hover{
+  background-color: #111;
+}
